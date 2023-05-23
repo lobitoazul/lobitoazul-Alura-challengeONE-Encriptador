@@ -1,0 +1,146 @@
+input{
+position: absolute;
+width: 577px;
+height: 48px;
+left: 240px;
+top: 168px;
+border: 0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+background: #E5E5E5;
+border: 1px solid #000000;
+border-radius: 10px;
+
+/* identical to box height, or 48px */
+
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+
+}
+
+body{
+background: #E5E5E5;
+}  
+
+.encriptar{
+position: absolute;
+left: 450px;
+top: 550px;
+background: #0A3871;
+border-radius: 24px;
+color:rgba(207, 204, 204, 0.89);
+font-family: 'Inter';
+font-style: normal;
+font-size: 20px;
+line-height:65px;
+text-align: center;
+height: 70px;
+width: 250px;
+}
+.encriptar:hover{
+transition: 1s all;
+transform: scale(1.1);
+}
+
+.decencriptar{
+position: absolute;
+left: 750px;
+top: 550px;
+color: #0A3871;
+border-radius: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-size: 20px;
+line-height:65px;
+text-align: center;
+height: 70px;
+width: 250px;
+}
+
+.decencriptar:hover{
+transition: 1s all;
+transform: scale(1.1);
+}
+
+.copiar{
+position: relative;
+left: 50px;
+top: 485px;
+color: #0A3871;
+border-radius: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-size: 20px;
+line-height:65px;
+text-align: center;
+height: 70px;
+width: 250px;
+
+}
+
+form{
+margin: 40px;
+padding:20px;
+background-color: #ffffff;
+position: absolute;
+width: 350px;
+height: 600px;
+left: 1050px;
+top: 0px;
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+    
+}
+
+p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+/* or 36px */
+
+
+/* Gray/gray-400 */
+
+color: #495057;
+position: absolute;
+bottom: 550px;
+}
+
+.vector{
+position: absolute;
+left: 4%;
+top: 4%;
+
+    
+    
+    /* Dark blue/dark-blue-300 */
+    
+}
+
+.advertencia{
+position: absolute;
+left: 490px;
+top: 520px;
+opacity: 0.8;
+flex: none;
+order: 1;
+flex-grow: 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+}
+
+.aviso{
+    position: absolute;
+    left: 470px;
+    top: 530px;
+}
